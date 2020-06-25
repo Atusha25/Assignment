@@ -18,7 +18,7 @@ public class MakeMyTrip {
 		
 	
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\"+user+"\\eclipse-workspace\\newWork\\PubMatic__Assignment\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\"+user+"\\eclipse-workspace\\newWork\\PubMatic__Assignment\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
 
